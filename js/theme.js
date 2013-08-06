@@ -73,6 +73,7 @@ readyState(function()
     {
             scrollPage(page);
     });
+    //crossroads.routed.add(console.log, console); // log all routes
     
     /**
      * Hasher
@@ -104,6 +105,7 @@ readyState(function()
                     else
                     {
                             $("#navigation a[href='#/"+$(this).attr('id') + "']").removeClass('active');
+                            crossroads.resetState();
                     }
             });
         }
