@@ -219,7 +219,7 @@ readyState(function()
     });
     $('.slide-content > div').css({'background-size': 'contain'});
     $('.slide-content > div').css({'background-repeat': 'no-repeat'});
-    $('.flexslider').flexslider();
+    $('.flexslider').flexslider({slideshow: false});
 
     /**
      * Swipebox
