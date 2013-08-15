@@ -67,6 +67,7 @@ h1, h2, h3
 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    text-align: center;
 }
 
 a
@@ -346,32 +347,30 @@ span.metro-sign
     margin: 80px;
 }
 
-/*
-.quote
-{
-    text-align: center;
-    font-size: 30px;
-    font-size: 3rem;
-    line-height: 40px;
-}
-
-.customer
-{
-    text-align: center;
-    font-size: 18px;
-    font-size: 1.8rem;
-    line-height: 40px;
-}
-*/
-
 /**
  * Features
  */
+ .features-list > div
+ {
+    height: 100%;
+    padding: 2em;
+ }
+ .features-list > div:hover
+ {
+    background-color: #FFE7B5;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+    border-radius: 6px;
+        -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+ }
+
 .feature
 {
     font-size: 24px;
     font-size: 2.4rem;
-    line-height: 64px;
+    line-height: 48px;
     font-family: 'GardensC', sans-serif;
     text-align: center;
 }
@@ -383,6 +382,9 @@ span.metro-sign
 }
 .feature-img 
 {
+    display: block;
+    height: 152px;
+    margin: 2em auto;
     border: 1px solid #ddd;
         -webkit-border-radius: 6px;
         -moz-border-radius: 6px;
