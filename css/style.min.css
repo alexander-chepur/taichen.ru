@@ -122,6 +122,7 @@ th
 {
     border-color: #888;
     vertical-align: top;
+    padding: 0.4em 0.5em;
 }
 
 span.metro-sign 
@@ -141,7 +142,7 @@ span.metro-sign
     max-width: 400px;
     color: #fff;
     color: #d99211;
-    line-height: 70px;
+    line-height: 50px;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
@@ -167,7 +168,7 @@ span.metro-sign
 
 #header .navbar
 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     background: none;
     filter: none;
         -moz-transition: all 600ms;
@@ -443,7 +444,7 @@ span.metro-sign
 /**
 * Video
 */
-#video h3
+#video li > h3
 {
     font-size: 16px;
     font-size: 1.6rem;
@@ -529,7 +530,7 @@ span.metro-sign
 #yandex_map
 {
     width: 100%;
-    height: 28em;
+    height: 36em;
     border: 1px solid #888;
         -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
         -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);

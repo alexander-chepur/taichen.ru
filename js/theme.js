@@ -112,12 +112,12 @@ readyState(function()
 
         if ($(this).scrollTop() > 50)
         {
-            $('#header .navbar').css('background-color', 'rgba(0, 0, 0, 0.8)');
+            // $('#header .navbar').css('background-color', 'rgba(0, 0, 0, 0.8)');
             $('#back-top').fadeIn();
         }
         else
         {
-            $('#header .navbar').css('background', 'none');
+            // $('#header .navbar').css('background', 'none');
             $('#back-top').fadeOut();
         }
     });
