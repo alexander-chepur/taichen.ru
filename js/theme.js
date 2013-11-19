@@ -227,4 +227,10 @@ readyState(function()
     $(".swipebox").swipebox();
     $(".swipebox-video").swipebox();
 
+    /**
+     * News block
+     */
+     $('#news-teaser button[class="close"]').on('click', function(e) {
+        $('#news-teaser').hide();
+     })
 });
