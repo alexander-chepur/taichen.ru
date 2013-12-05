@@ -449,6 +449,17 @@ span.metro-sign
 }
 
 /**
+ * Instructors
+ */
+#instructors img
+{
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    background-color: #ddd;
+}
+
+
+/**
  * Portfolio
  */
 .portfolio .item a
@@ -573,7 +584,7 @@ span.metro-sign
 #yandex_map
 {
     width: 100%;
-    height: 36em;
+    height: 33em;
     border: 1px solid #888;
         -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
         -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);

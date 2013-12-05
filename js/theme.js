@@ -32,7 +32,8 @@ readyState(function()
 
         scroll = false;
 
-        $('html, body').animate({ scrollTop: $('#' + page).offset().top }, 800, function(){ scroll = true; });
+        //$('html, body').animate({ scrollTop: $('#' + page).offset().top }, 800, function(){ scroll = true; });
+        $('html, body').animate({ scrollTop: $('#' + page).offset().top + $('#news-teaser').height()}, 800, function(){ scroll = true; });
     }
 
     /**
@@ -48,8 +49,8 @@ readyState(function()
      */
     function introPos()
     {
-        //$('#intro').css({'margin-top':( ($('.box:first').height() /2) - $('#header').height() - ($('#intro').height() /2) )});
-        $('#intro').css({'margin-top':( $('.box:first').height() - $('#header').height() - $('#intro').height() - parseFloat($('#intro').css('padding-top')) *2.2 )});
+        //$('#intro').css({'margin-top':( $('.box:first').height() - $('#header').height() - $('#intro').height() - parseFloat($('#intro').css('padding-top')) *2.2 )});
+        $('#intro').css({'margin-top':( $('.box:first').height() - $('#header .navbar').height() - $('#intro').height() - parseFloat($('#intro').css('padding-top')) *2.2 )});
     }
 
     /**
@@ -143,7 +144,8 @@ readyState(function()
 
         hasher.setHash(firstItem.attr('href').replace('#/', ''));
 
-        $('html, body').animate({ scrollTop: 0 }, 800);
+        //$('html, body').animate({ scrollTop: 0 }, 800);
+        $('html, body').animate({ scrollTop: $('#intro').offset().height() }, 800);
         
         return false;
     });
