@@ -63,7 +63,7 @@ body
     z-index: -1;
 }
 
-h1, h2, h3
+h1, h2, h3, h4
 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -140,6 +140,7 @@ span.metro-sign
 #logo
 {
     max-width: 400px;
+    margin: 5px 0 5px 0;
     color: #fff;
     color: #d99211;
     line-height: 50px;
@@ -226,8 +227,8 @@ span.metro-sign
     text-shadow: none;
     padding: 15px 0 3px 0;
     margin: 20px 10px 26px 10px;
-    font-size: 16px;
-    font-size: 1.6rem;
+    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 400;
     border-bottom: solid transparent 2px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
@@ -235,16 +236,19 @@ span.metro-sign
 
 #header .navbar .nav > li > a:hover, #header .navbar .nav > li > a.active
 {
-        -moz-transition: all 600ms;
-        -webkit-transition: all 600ms;
-        -o-transition: all 600ms;
-    transition: all 600ms;
+        -moz-transition: all 100ms;
+        -webkit-transition: all 100ms;
+        -o-transition: all 100ms;
+    transition: all 100ms;
     color: #d99211;
     border-bottom: solid #d99211 2px;
     background: none;
     filter: none;
 }
 
+/**
+ * News
+ */
 #news-teaser .news-teaser-header
 {
     background-color: #888;
@@ -286,6 +290,19 @@ span.metro-sign
 #news-teaser .news-teaser-content a:hover
 {
     color: #d99211;
+}
+
+#news p.img_holder
+{
+    text-align: center;
+}
+
+#news img
+{
+    max-width: 60%;
+    max-height: 30em;
+    padding: 5px 5px;
+    border: 1px solid #ccc;
 }
 
 /**
@@ -449,6 +466,21 @@ span.metro-sign
 }
 
 /**
+ * Master
+ */
+#master img
+{
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    background-color: #ddd;
+}
+
+#master h4
+{
+    color: #666;
+}
+
+/**
  * Instructors
  */
 #instructors img
@@ -458,6 +490,10 @@ span.metro-sign
     background-color: #ddd;
 }
 
+#instructors h4
+{
+    color: #666;
+}
 
 /**
  * Portfolio
