@@ -165,6 +165,16 @@ readyState(function()
         return false;
     });
 
+    function loadSections()
+    {
+        $('section[class="box"]').each( function(index) {
+            section_name = $(this).attr("id");
+            $('#'+ section_name +' div[class*="content"]').load('sections/'+ section_name + '/' + section_name +'.html');
+        });
+    }
+
+    loadSections();
+
     /**
      * Vegas background image slider
      */
@@ -202,32 +212,6 @@ readyState(function()
         $('#lightbox').show();
     });
     */
-
-    /**
-     * Flexslider
-     */
-    $('.slide-content').height($(window).height()*0.55); 
-    $('.slide-content > div').css({'background-image': 
-        function() 
-        {
-            return 'url("'+ $(this).attr('rel') +'")'; 
-        }
-    });
-    $('.slide-content > div').css({'background-position': 
-        function() 
-        {
-            return $(this).attr('pos'); 
-        }
-    });
-    $('.slide-content > div').css({'background-size': 'contain'});
-    $('.slide-content > div').css({'background-repeat': 'no-repeat'});
-    $('.flexslider').flexslider({slideshow: false});
-
-    /**
-     * Swipebox
-     */
-    $(".swipebox").swipebox();
-    $(".swipebox-video").swipebox();
 
     /**
      * News block
