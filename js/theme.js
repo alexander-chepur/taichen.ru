@@ -165,15 +165,24 @@ readyState(function()
         return false;
     });
 
-    function loadSections()
-    {
-        $('section[class="box"]').each( function(index) {
-            section_name = $(this).attr("id");
-            $('#'+ section_name +' div[class*="content"]').load('sections/'+ section_name + '/' + section_name +'.html');
-        });
-    }
+    /***
+    * Localize menu links
+    */
 
-    loadSections();
+    $('#navigation > li > a').each(function(){
+        $(this).attr('href', $(this).attr('href').replace('.', '#'));
+    });
+
+    /***
+    * Load sections
+    */
+    $('section[class="box"]').each( function() {
+        section_name = $(this).attr("id");
+        if (section_name != 'home') {
+            $('#'+ section_name +' div[class*="content"]').load('sections/'+ section_name + '/index.html #container');
+            $.getScript('sections/'+ section_name + '/script.js');
+        };
+    });
 
     /**
      * Vegas background image slider

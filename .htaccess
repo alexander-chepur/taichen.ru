@@ -1,4 +1,4 @@
 RewriteEngine on
 
 RewriteRule ^sitemap\.xml$ sitemap.php
-RewriteRule ^([^/\.]+)/?$ index.php?page=$1 [L]
+RewriteRule ^([^/\.]+)/?$ sections/$1/index.html [L]
