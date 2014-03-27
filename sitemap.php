@@ -1,13 +1,104 @@
 ﻿<?php
 $xmlstr = <<<XML
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <url>
-      <loc>http://taichen.ru/</loc>
-      <lastmod></lastmod>
-      <changefreq>daily</changefreq>
-      <priority>1</priority>
-   </url>
+<urlset 
+		xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+		http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+<url>
+    <loc>http://taichen.ru</loc>
+    <lastmod>2014-01-25T09:51:50+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/thqg.png</loc>
+    <lastmod>2013-12-14T01:39:18+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/home</loc>
+    <lastmod>2014-01-25T05:34:48+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/news</loc>
+    <lastmod>2014-01-25T05:34:50+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/about</loc>
+    <lastmod>2014-01-25T05:34:47+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/master</loc>
+    <lastmod>2014-01-25T05:34:49+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/instructors</loc>
+    <lastmod>2014-01-25T05:34:49+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/video</loc>
+    <lastmod>2014-01-25T05:34:51+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/photo</loc>
+    <lastmod>2014-01-25T05:34:50+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/articles</loc>
+    <lastmod>2014-01-25T05:34:48+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/contact</loc>
+    <lastmod>2014-01-25T05:34:48+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/feature1.jpg</loc>
+    <lastmod>2013-08-14T19:02:46+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/feature2.jpg</loc>
+    <lastmod>2013-08-14T19:02:46+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/wNia74ONWWY.jpg</loc>
+    <lastmod>2013-08-14T19:02:47+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/feature3.jpg</loc>
+    <lastmod>2013-08-14T19:02:46+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/feature4.jpg</loc>
+    <lastmod>2013-08-14T19:02:46+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/vlcsnap-2014-01-07-01h43m51s67.png</loc>
+    <lastmod>2014-01-07T01:55:35+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/mmexport1386964147583.jpg</loc>
+    <lastmod>2013-12-17T18:54:34+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/o7HDbQq1sO8.jpg</loc>
+    <lastmod>2013-12-17T18:54:34+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/IMG_9053.jpg</loc>
+    <lastmod>2013-12-26T02:10:20+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/1.jpg</loc>
+    <lastmod>2013-12-05T22:53:36+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/IMG_9071.jpg</loc>
+    <lastmod>2013-12-26T18:31:36+04:00</lastmod>
+</url>
+<url>
+    <loc>http://taichen.ru/img/IMG_9108_crop.jpg</loc>
+    <lastmod>2013-12-26T01:23:40+04:00</lastmod>
+</url>
 </urlset>
 XML;
 
