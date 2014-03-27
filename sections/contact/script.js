@@ -1,1 +1,0 @@
-$.getScript("//api-maps.yandex.ru/services/constructor/1.0/js/?sid=uc6f3pzjpe7tGaSLHqxdVW4gea_yT6di&id=yandex_map");

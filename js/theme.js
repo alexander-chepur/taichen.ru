@@ -23,14 +23,15 @@ readyState(function()
 {
     /***
     * Localize menu links
-    */
+
     $('#navigation > li > a').each(function(){
         $(this).attr('href', $(this).attr('href').replace('.', '#'));
     });
+    */
 
     /***
     * Load sections
-    */
+    
     $('section[class="box"]').each( function() {
         section_name = $(this).attr("id");
         if (section_name != 'home') {
@@ -38,6 +39,7 @@ readyState(function()
             $.getScript('sections/'+ section_name + '/script.js');
         };
     });
+    */
 
     /**
      * Scroll Page
@@ -83,7 +85,9 @@ readyState(function()
     /**
      * Panel offset
      */
-    $('.panel').css({'margin-top':$('#header').height()});
+    //$('.panel').css({'margin-top':$('#header').height()});
+    $('.panel').css({'margin-top':$('.navbar').height()});
+    $('.panel').fadeIn();
 
     /**
      * Crossroad
@@ -168,6 +172,9 @@ readyState(function()
         return false;
     });
 
+    /***
+    * Logo link localization
+
     $('#logo').click(function(event)
     {
         $('#navigation a[data-nav="scroll"]').removeClass('active');
@@ -182,6 +189,7 @@ readyState(function()
         
         return false;
     });
+    */
 
     /**
      * Vegas background image slider
