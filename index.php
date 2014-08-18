@@ -20,11 +20,11 @@ if(empty($_GET["section"])) {
 
     <head>
 
-        <title>Школа тайцзицюань, цигун и кунгфу Хуана Тайчэна</title>
+        <title>Школа тайцзицюань, цигун и кунг-фу Хуана Тайчэна "ТайХэ"</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Школа тайцзицюань и цигун Хуана Тайчэна; Школа традиционного ушу (кунг-фу); Стиль тайхэцюань: Внутренний стиль боевых исскуств">
-        <meta name="keywords" content="ушу, wushu, kung-fu, кун фу, кунг фу, тайцзи, тайцзы, тайчи, тайцзицюань, тай цзи цюань, цигун, чи гун, боевое исскуство, внутреннее боевое исскуство, внутренний стиль, тайхэцюань, Хуан Тайчэн, оздоровительная гимнастика, школа тайцзицюань, школа цигун, кунг-фу, ушу, традиционное ушу, секция ушу, клуб ушу">
+        <meta name="keywords" content="ушу, wushu, kung-fu, кун фу, кунг фу, тайцзи, тайцзы, тайчи, тайцзицюань, тай цзи цюань, цигун, чи гун, боевое исскуство, внутреннее боевое исскуство, внутренний стиль, тайхэцюань, Хуан Тайчэн, оздоровительная гимнастика, школа тайцзицюань, школа цигун, кунг-фу, ушу, традиционное ушу, секция ушу, клуб ушу, ушу для детей">
         <meta name="author" content="Alexander Chepur">
         <meta charset="utf-8">
 
@@ -150,7 +150,7 @@ if(empty($_GET["section"])) {
     </section>
 
     <!-- lightbox -->
-    <!--<div style="display: none;" id="lightbox"><img id="bigimg" src="" /></div>-->
+    <div style="display: none;" id="lightbox"><img id="bigimg" src="" /></div>
 
     <!-- scripts -->
     <script type="text/javascript" src="js/signals.min.js"></script>

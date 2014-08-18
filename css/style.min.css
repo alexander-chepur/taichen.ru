@@ -587,7 +587,7 @@ span.metro-sign
 
 /**
 * Photo
-*/
+
 .photo 
 {
     position: relative;
@@ -610,6 +610,19 @@ span.metro-sign
         -moz-border-radius: 12px;
     border-radius: 12px;
 }
+*/
+#photo figure.picture-item
+{
+    border: 1px solid #CCC;
+    background-color: #eee;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+#photo .picture-item__title
+{
+    color: #b91717;
+}
 
 /**
  * Lightbox
@@ -621,7 +634,7 @@ span.metro-sign
     top: 0; 
     left: 0; 
     width: 100%; 
-    height: 100%; 
+    height: 100%;
     background: rgba(0, 0, 0, 0.8);
     text-align: center;
     z-index: 100;
@@ -630,13 +643,14 @@ span.metro-sign
 #lightbox img
 {
     max-width: 940px;
-    margin-top: 40px;
+    max-height: 90%; 
+    margin-top: 60px;
 }
 
 /**
  * Yandex Maps
  */
-#yandex_map
+.yandex_map
 {
     width: 100%;
     height: 33em;

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /pages
+Sitemap: http://taichen.ru/sitemap.xml
+Crawl-delay: 2 # задает таймаут в 4.5 секунды

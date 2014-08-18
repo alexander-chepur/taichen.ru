@@ -213,8 +213,7 @@ readyState(function()
     /**
      * Lightbox
      */
-     /*
-
+    
     $('#lightbox').on('click', function(event)
     {
         $('#lightbox').hide();
@@ -227,7 +226,7 @@ readyState(function()
         $('#bigimg').attr({'src':$(this).attr("href")});
         $('#lightbox').show();
     });
-    */
+    
 
     /**
      * News block
