@@ -81,11 +81,16 @@ if(empty($_GET["section"])) {
                                     <li><a data-nav="scroll" href="./news">НОВОСТИ</a></li>
                                     <li><a data-nav="scroll" href="./about">НАПРАВЛЕНИЯ</a></li>
                                     <li><a data-nav="scroll" href="./master">МАСТЕР</a></li>
+                                    <!--
                                     <li><a data-nav="scroll" href="./instructors">ПРЕПОДАВАТЕЛИ</a></li>
+                                    -->
                                     <li><a data-nav="scroll" href="./video">ВИДЕО</a></li>
                                     <li><a data-nav="scroll" href="./photo">ФОТО</a></li>
                                     <li><a data-nav="scroll" href="./articles">СТАТЬИ</a></li>
-                                    <li><a data-nav="scroll" href="./contact">КОНТАКТЫ</a></li>
+                                    <li><a data-nav="scroll" href="./contact">КОНТАКТЫ И РАСПИСАНИЕ</a></li>
+                                    <!--
+                                    <li><a data-nav="scroll" href="./club">КЛУБ</a></li>
+                                    -->
                                 </ul>
                             </div>
                         </div>

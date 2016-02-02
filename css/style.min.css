@@ -652,7 +652,7 @@ span.metro-sign
  */
 .yandex_map
 {
-    width: 100%;
+    width: 99%;
     height: 33em;
     border: 1px solid #888;
         -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
